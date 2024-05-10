@@ -1,0 +1,84 @@
+h1 {
+	background:powderblue;
+	color:indigo;
+	margin: auto;
+	border-radius: 20px;
+	font-family: Georgia, Arial, Vedrana;
+	font-size: 30px;
+	padding-left:15px;
+	padding-top: 5px;
+	padding-right:100px;
+	padding-bottom:5px;
+	
+
+}
+
+#h1_gornji {
+    color:indigo;
+	margin: auto;
+	font-family: Trebuchet MS, Arial, Vedrana;
+	font-size:25px;
+	padding-left:15px;
+	padding-right:70px;
+	
+ }
+#h1_srednji {
+    color:red;
+	padding-left:15px;	
+    margin: auto;
+    font-family: Arial, Vedrana;
+    font-size: 80px;
+	padding-right:100px;
+	     
+}
+
+#h1_donji {
+	padding-left:15px;
+    color:black;
+	font-family: Arial, Vedrana;
+	padding-right:100px;
+
+}
+
+p {
+    
+	color:black;
+    font-family: Trebuchet MS,Arial, Vedrana;
+	font-size: 20px;
+	padding-left:15px;
+	padding-right:20px;
+	
+	
+}
+
+
+body {
+    
+	background-color: AntiqueWhite;
+	background-position:top;
+	font-size:20px;
+	   
+}
+	
+a {margin-left:10px;margin-right:10px;font-family: Trebuchet MS,Arial, Vedrana;color:black; font-size: 17px; }
+iframe { padding-left:15px;padding-right:100px;}
+
+img { 
+	margin-left:5px; margin-right: 5px;
+	border-radius: 20px;
+}
+
+@media only  screen and
+(max-width: 768px)  {
+	 body  { 
+	      font-size:14px;
+	 }
+	 img {
+		  max-width: 100%;
+		  height: auto;
+	 }
+	 head  { 
+	      font-size:14px;
+	 }
+	 
+}
